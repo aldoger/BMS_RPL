@@ -2,63 +2,65 @@
 body {
     margin: 0;
     padding: 0;
+    background: #161616;
 }
 
-.nav-link {
-    border-bottom: 2px solid transparent; 
-    transition: border-color 0.3s ease;
+/* ------------- NavBar ----------------- */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
 }
 
-.nav-link:hover {
-    border-bottom: 2px solid darkblue;
+.navbar-scroll {
+  background-color: #0E101C;
 }
-
-.container-1{
-    background-image: url(./assets/Software-Engineering-Technology.jpg);
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+.navbar-brand {
+  font-size: unset;
+  height: 3.5rem;
 }
-
-.heroes .text-content {
-    background: rgba(0, 0, 0, 0.6); 
-    padding: 40px;
-    border-radius: 10px;
-    max-width: 800px;
-    text-align: center;
-}
-
-
-.heroes h1 {
-    font-size: 3rem;
-    color: #fff;
-    margin-bottom: 20px;
-}
-
-.heroes p {
-    font-size: 1.25rem;
-    color: #ddd;
-    margin-bottom: 40px;
-}
-
-
-
-header {
-    background: rgba(0, 0, 0, 0.6); 
-    padding: 40px;
-    border-radius: 10px;
-}
-
-
-header img {
-    width: 80px;
-    height: 60px;
-    border: 1px solid black;
-    border-radius: 20%;
-}
-
 
 .container {
     padding: 0 20px;
 }
+
+a {
+    text-decoration: none;
+}
+span{
+    color: white;
+    font-weight: 600;
+}
+
+nav img{
+    border-radius: 20px;
+}
+ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+/* ------------- End NavBar ----------------- */
+
+
+/* ------------- Hero ---------------------- */
+.bg-hero {
+    background-image: url('assets/Software-Engineering-Technology.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-content {
+    backdrop-filter: blur(6px) saturate(102%);
+    -webkit-backdrop-filter: blur(6px) saturate(102%);
+    background-color: rgba(255, 255, 255, 0.503);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    margin-top: 80px;
+}
+
+.jumbotron-content p, .jumbotron-content ul li{
+    font-weight: 400;
+}
+
+/* ------------- End Hero ---------------------- */
