@@ -1,0 +1,9 @@
+
+.nav-link {
+    border-bottom: 2px solid transparent; 
+    transition: border-color 0.3s ease;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid darkblue; /* Change border color to dark blue on hover */
+}
