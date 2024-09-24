@@ -2,23 +2,52 @@
 body {
     margin: 0;
     padding: 0;
+    background: #161616;
 }
 
-.nav-link {
-    border-bottom: 2px solid transparent; 
-    transition: border-color 0.3s ease;
+/* ------------- NavBar ----------------- */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
 }
 
-.nav-link:hover {
-    border-bottom: 2px solid darkblue;
+.navbar-scroll {
+  background-color: #0E101C;
+}
+.navbar-brand {
+  font-size: unset;
+  height: 3.5rem;
 }
 
-.container-1{
-    background-image: url(./assets/Software-Engineering-Technology.jpg);
-    background-size: cover; 
+.container {
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+span{
+    color: white;
+    font-weight: 600;
+}
+
+nav img{
+    border-radius: 20px;
+}
+ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+/* ------------- End NavBar ----------------- */
+
+
+/* ------------- Hero ---------------------- */
+.bg-hero {
+    background-image: url('assets/Software-Engineering-Technology.jpg');
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
 }
 
 .heroes .text-content {
@@ -43,6 +72,7 @@ body {
 }
 
 
+
 header {
     background: rgba(0, 0, 0, 0.6); 
     padding: 40px;
@@ -57,7 +87,8 @@ header img {
     border-radius: 20%;
 }
 
-
-.container {
-    padding: 0 20px;
+.jumbotron-content p, .jumbotron-content ul li{
+    font-weight: 400;
 }
+
+/* ------------- End Hero ---------------------- */
