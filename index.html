@@ -18,51 +18,27 @@
   </head>
   <body>
     <!-- Navbar -->
-    <section class="container-1">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-scroll fixed-top shadow-0 border-bottom border-dark">
-          <div class="container">
+    <section class="container-1 navbar-scroll">
+      <div class="container navbar-scroll">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 fixed-top flex-col flex-lg-row  navbar-scroll">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <img
-              class="bi me-2"
-              width="80"
-              height="60"
+              style="width: 70px; height: 60px; margin-right: 5px;"
               alt="Logo SE"
               src="./assets/SE.jpeg"
             />
             <span class="fs-4">Software Engineering</span>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-mdb-toggle="collapse"
-              data-mdb-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">Tentang Kami</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#!">Fasilitas</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#!">Dosen</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#!">Riset</a>
-                </li>
-                <button type="button" class="btn btn-dark ms-3">
-                  Contact
-                </button>
-              </ul>
-            </div>
-          </div>
-        </nav>
+          </a>
+    
+          <ul class="nav nav-pills d-flex align-items-center gap-3">
+            <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Tentang Kami</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Fasilitas</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Dosen</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Riset</a></li>
+          </ul>
+        </header>
       </div>
+    
       <!-- End Navbar -->
 
       <!-- Hero -->
@@ -96,49 +72,76 @@
           </div>
         </div>
       </div>
-      
+    </section>
       <!-- End Hero -->
 
-      <!-- Card Buat Fasilitas--> 
-      
-      <!-- End Card -->
+    <section>
+      <div class="container">
+        <h1>Fasilitas</h1>
+        <div class="row gap-4 mb-3 d-flex justify-content-center">
+          <div class="card col-sm-6 col-lg-4 pt-3">
+            <img src="./assets/laboratorium.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        
+          <div class="card col-sm-6 col-lg-4 pt-3">
+            <img src="./assets/ruangbaca.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        
+          <div class="card col-sm-6 col-lg-4 pt-3">
+            <img src="./assets/ruangkelas.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row gap-4 d-flex justify-content-center">
+          <div class="card col-sm-6 col-lg-4 pt-3">
+            <img src="./assets/aula.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        
+          <div class="card col-sm-6 col-lg-4 pt-3">
+            <img src="./assets/studentcenter.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        
+          <div class="card col-sm-6 col-lg-4 pt-3">
+            <img src="./assets/ruangsidang.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </section>
+
       <!-- Footer -->
-      <section>
+    <section>
       <footer class="text-center text-white" style="background-color: #192649" id="footer">
         <div class="container">
-          <section class="">
-            <div class="row text-center d-flex justify-content-center pt-5">
-              <div class="col-md-2">
-                <h6 class="text-uppercase font-weight-bold">
-                  <a href="#!" class="text-white">Tentang Kami</a>
-                </h6>
-              </div>
-
-              <div class="col-md-2">
-                <h6 class="text-uppercase font-weight-bold">
-                  <a href="#!" class="text-white">Fasilitas</a>
-                </h6>
-              </div>
-
-              <div class="col-md-2">
-                <h6 class="text-uppercase font-weight-bold">
-                  <a href="#!" class="text-white">Dosen</a>
-                </h6>
-              </div>
-
-              <div class="col-md-2">
-                <h6 class="text-uppercase font-weight-bold">
-                  <a href="#!" class="text-white">Riset</a>
-                </h6>
-              </div>
-
-              <div class="col-md-2">
-                <h6 class="text-uppercase font-weight-bold">
-                  <a href="#!" class="text-white">Contact</a>
-                </h6>
-              </div>
-            </div>
-          </section>
 
           <hr class="my-5" />
 
@@ -186,7 +189,7 @@
         </div>
       </footer>
     </section>
-    <!-- End Footer -->
+
 
     
   </body>

@@ -6,18 +6,14 @@ body {
 }
 
 /* ------------- NavBar ----------------- */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon,
-.navbar-scroll .navbar-brand {
+
+.nav-link {
   color: #fff;
+  font-size: unset;
 }
 
 .navbar-scroll {
   background-color: #0E101C;
-}
-.navbar-brand {
-  font-size: unset;
-  height: 3.5rem;
 }
 
 .container {
@@ -32,9 +28,32 @@ span{
     font-weight: 600;
 }
 
-nav img{
-    border-radius: 20px;
+.nav {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-around; 
+    padding: 0;
+    margin: 0;
+  }
+  
+.nav-item {
+  flex: 1 1 auto; 
+  text-align: center;
 }
+
+
+@media (max-width: 500px) {
+  .nav {
+    flex-direction: row; 
+    gap: 2px; 
+  }
+
+  .nav-link {
+    font-size: 14px; 
+    padding: 5px; 
+  }
+}
+
 ul li a:hover{
     border-bottom: 2px solid white;
 }
@@ -103,3 +122,21 @@ header img {
 
 
 /* ------------- End Hero ---------------------- */
+
+
+.card{
+    width: 410px;
+}
+
+.card img{
+    height: 300px;
+}
+
+@media (max-width: 800px){
+    .card{
+        width: 280px;
+    }
+    .card img{
+        height: 250px;
+    }
+}
