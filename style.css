@@ -123,13 +123,25 @@ header img {
 
 /* ------------- End Hero ---------------------- */
 
+#Fasilitas{
+    background-color: #0E101C;
+}
 
-.card{
+.card {
     width: 410px;
+    backdrop-filter: blur(6px) saturate(102%);
+    -webkit-backdrop-filter: blur(6px) saturate(102%);
+    background-color: rgba(255, 255, 255, 0.503);
 }
 
 .card img{
     height: 300px;
+}
+
+.btn {
+    border: 1px solid black;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px; 
 }
 
 @media (max-width: 800px){
@@ -139,4 +151,14 @@ header img {
     .card img{
         height: 250px;
     }
+    #Fasilitas h1{
+        text-align: center;
+    }
 }
+
+@media (max-width: 1300px){
+    #Fasilitas h1{
+        text-align: center;
+    }
+}
+
