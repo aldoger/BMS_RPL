@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #161616;
+    background: #0E101C;
 }
 
 /* ------------- NavBar ----------------- */
@@ -63,7 +63,7 @@ ul li a:hover{
 
 /* ------------- Hero ---------------------- */
 .bg-hero {
-    background-image: url('assets/Software-Engineering-Technology.jpg');
+    background-image: linear-gradient(to bottom, rgba(14, 16, 28, 0), #0E101C), url('assets/Software-Engineering-Technology.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -123,8 +123,11 @@ header img {
 
 /* ------------- End Hero ---------------------- */
 
-#Fasilitas{
+#fasilitas{
     background-color: #0E101C;
+    padding-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .card {
@@ -143,6 +146,10 @@ header img {
     border-top-right-radius: 10px; 
     border-bottom-right-radius: 10px; 
 }
+.btn:hover{
+    background-color: #192649;
+    color: white;
+}
 
 @media (max-width: 800px){
     .card{
@@ -160,5 +167,25 @@ header img {
     #Fasilitas h1{
         text-align: center;
     }
+}
+
+/* ------------- Dosen --------------*/
+#dosen{
+    background-color: #0E101C;
+    padding-bottom: 50px;
+}
+#dosen img{
+    aspect-ratio: 11/16;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: cover; /* Memastikan gambar memenuhi area tanpa distorsi */
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
